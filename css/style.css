@@ -1,0 +1,186 @@
+
+body {
+	margin: 0;
+	padding-top: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+	visibility: hidden;
+	margin: 0;
+}
+
+.instructions {
+	font-family: 'Indie Flower', cursive;
+	font-size: 0.8em;
+	width: 130px;
+	background: #fff url('../images/instructions-arrow-top-left.png') no-repeat left top;
+	margin: 10px auto;
+	padding-left: 15px;
+}
+
+.top-left {
+	background: #fff url('../images/instructions-arrow-top-left.png') no-repeat left top;
+	float: left;
+	margin-left: 5px;
+}
+
+.bottom-left 	{
+	background: #fff url('../images/instructions-arrow-bottom-left.png') no-repeat left bottom;
+	float: right;
+}
+
+.top-right {
+	background: #fff url('../images/instructions-arrow-top-right.png') no-repeat right top;
+	padding-right: 15px;
+	text-align: right;
+}
+
+.bottom-right {
+	background: #fff url('../images/instructions-arrow-bottom-right.png') no-repeat right bottom;
+	padding-right: 15px;
+	padding-left: 0;
+	text-align: right;
+	float: right;
+	margin-right: 5px;
+}
+
+.button {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 40px;
+	text-decoration: none;
+	background-color: #d7e0b1;
+	color: black;
+}
+
+.content-image {
+	width: 100%;
+	display: block;
+}
+
+.separator-bg-1 {
+	background-color: #f1f1f1;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.separator-bg-2 {
+	background-color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.options {
+	width: 50%;
+	float: left;
+	text-align: center;
+	background-color: #d9d9d9;
+}
+
+	.options span {
+		padding: 5px 0;
+		display: block;
+		background-color: red;
+	}
+
+@media only screen and (max-width:768px) {
+
+	h2, h3, h4, h5, h6 {
+		padding: 0 10px;
+	}
+}
+
+/* ------------------------------ */
+
+header h1 {
+	float: left;
+	width: 80%;
+}
+
+header h1 a, header h1 a img {
+	display: block;
+}
+
+header img[alt="Navigation Button"] {
+	float: right;
+	margin: 15px 10px;
+}
+
+nav {
+	display: none;
+}
+
+.jumbotron {
+	background-image: url("../images/jumbotron.jpg");
+	padding: 100px 0;
+	text-align: center;
+}
+
+.campaign-container {
+	padding: 10px;
+}
+
+	.campaign-container a {
+		display: block;
+		text-align: center;
+		background-color: gray;
+		padding: 5px 0;
+	}
+
+/* ------------------------------ */
+
+footer {
+	background-color: gray;
+	font-size: 0.8em;
+}
+
+footer img {
+	width: 90%;
+}
+
+footer ul {
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+footer ul a {
+	color: #fff;
+}
+
+footer ul a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
